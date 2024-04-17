@@ -26,10 +26,6 @@ const Order = () => {
       }, 9000);
     
 
-      const addto = () => {
-        window.location.href = 'http://127.0.0.1:4000/add_user'
-      }
-
 
     return (  
 <>
@@ -52,7 +48,6 @@ const Order = () => {
 </button>
 </div>
 </div>
- <button onClick={addto}>Next</button>
         </>
     );
 }

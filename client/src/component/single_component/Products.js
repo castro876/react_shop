@@ -7,7 +7,7 @@ const Products = () => {
     let  id  = useParams()
 
     const [fun, setfun] = useState(null)
-    const endpoint = `http://localhost:4000/single_product/${id}`;
+    const endpoint = `https://react-shop-4.onrender.com/single_product/${id}`;
 
     const options = {
       method: 'POST',

@@ -94,7 +94,7 @@ const CartDetails = () => {
               password: password
           };
   
-          const endpoint = `http://localhost:4000/checkout`;
+          const endpoint = `https://react-shop-4.onrender.com/checkout`;
   
           const options = {
               method: 'POST',

@@ -11,7 +11,7 @@ const Featured = () => {
 
     useEffect(() => {
          const func = async () => {
-                const response = await fetch('http://localhost:4000/all_product')
+                const response = await fetch('https://react-shop-4.onrender.com/all_product')
                 const data = await response.json()
                 setproData(data)
          }
